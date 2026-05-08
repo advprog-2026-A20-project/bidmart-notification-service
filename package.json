@@ -1,0 +1,11 @@
+{
+  "name": "bidmart-notification-service",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Notification service skeleton untuk migrasi BidMart ke arsitektur microservice",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}
