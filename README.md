@@ -51,12 +51,20 @@ npm install
 npm run dev
 ```
 
-Service berjalan default pada port `8083`.
+Service berjalan default pada port `8086`.
 
 ## Menjalankan Test
 
 ```bash
 npm test
+```
+
+## Environment Variable
+
+Salin `.env.example` menjadi `.env`:
+
+```bash
+cp .env.example .env
 ```
 
 ## Dependency ke Service Lain
